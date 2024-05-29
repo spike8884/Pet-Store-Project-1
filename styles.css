@@ -2,7 +2,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-  }
+}
+
   header {
     display: flex;
     justify-content: space-evenly;
@@ -41,7 +42,7 @@
     color: red;
   }
   .heading ul li a:hover {
-    color: rgb(243, 168, 7);
+    color: red;
     transition-duration: 1s;
   }
   
@@ -58,7 +59,7 @@
   .heading ul li a:hover::before {
     width: 100%;
     transition-duration: 1s;
-    background-color: rgb(243, 168, 7);
+    background-color: red;
   }
   #input {
     height: 30px;
@@ -160,7 +161,7 @@
     margin: 0px auto;
   }
   
-  .section2 .container {
+#market {
     display: flex;
     width: 100%;
     height: max-content;
@@ -168,7 +169,7 @@
     justify-content: center;
     margin: 10px auto;
   }
-  .section2 .container .items {
+ .items {
     margin: 10px;
     width: 200px;
     height: 300px;
@@ -176,7 +177,7 @@
     border: 3px solid black;
     border-radius: 12px;
   }
-  .section2 .container .items .name {
+ .items .name {
     text-align: center;
     background-color: black;
     height: 24px;
@@ -185,7 +186,7 @@
     font-weight: 500;
     margin: 0;
   }
-  .section2 .container .items .price {
+  .items .price {
     float: left;
     padding-left: 10px;
     display: block;
@@ -193,12 +194,12 @@
     color: darkslategrey;
     font-weight: 500;
   }
-  .section2 .container .items .info {
+  .items .info {
     padding-left: 10px;
     font-weight: 500;
     color: darkslategray;
   }
-  .section2 .container .items .img img {
+ .items .img img {
     width: 200px;
     height: 200px;
     margin: 0;
@@ -206,14 +207,17 @@
     /* border-radius: 12px; */
     transition-duration: 0.8s;
   }
-  .section2 .container .items .img {
+ .items .img {
     overflow: hidden;
     margin: 0;
   }
-  .section2 .container .items:hover .img img {
+.items:hover .img img {
     transform: scale(1.2);
     transition-duration: 0.8s;
     border-radius: 12px;
+  }
+  .footer:hover {
+    color: red;
   }
   footer {
     display: flex;
@@ -264,7 +268,7 @@
     transition-duration: 1s;
   }
   .footer0:hover {
-    color: red);
+    color: red;
   }
   .footer2 .heading {
     font-weight: 900;
@@ -404,7 +408,7 @@
       font-weight: 900;
     }
     .menu ul li a:hover {
-      color: red);
+      color: red;
     }
     .img-slider {
       display: flex;
