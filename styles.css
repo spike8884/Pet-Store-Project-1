@@ -219,14 +219,40 @@
   .footer:hover {
     color: red;
   }
+  body{
+    margin-bottom: 500px;
+  }
+#footer{
+  position: absolute;
+  height: 3rem;
+
+  background-color: black;
+  bottom: 0;
+  left: 0;
+  right: 0px;    
+  flex-direction: column;
+  display: flex;
+}
+#page-wrapper{
+  position: relative;
+  min-height: 100vh;
+}
+#content-wrapper{
+  padding-bottom: 3rem;
+}
+/* original footer below */
+/* 
   footer {
     display: flex;
-    flex-direction: column;
+
     background-color: black;
     align-items: center;
     color: white;
+  } */
+  footer{
+    background: black;
+    color: white;
   }
-  
   .footer1 {
     display: flex;
     flex-direction: column;
@@ -263,7 +289,7 @@
     text-decoration: none;
     flex-wrap: wrap;
   }
-  .footer0 {
+  .footer {
     font-weight: 1200;
     transition-duration: 1s;
   }
@@ -276,7 +302,7 @@
   }
   .footer3 {
     margin-top: 60px;
-    margin-bottom: 20px;
+    /* margin-bottom: 20px; */
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
